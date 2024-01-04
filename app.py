@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask_bootstrap import Bootstrap5
 
 from flask_wtf import FlaskForm, CSRFProtect
-from wtforms import StringField, SubmitField, TextAreaField
+from wtforms import SubmitField, TextAreaField
 from wtforms.validators import DataRequired, Length
 
 import tensorflow_hub as hub 
